@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	outline: none;
+}
+
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 100px;
+}
+
+header .titulo {
+	text-decoration: none;
+	font-size:1.5em;
+	color: #111;
+	font-weight: 800;
+}
+header .titulo span {
+	color: #21cbe9;
+}
+header ul {
+	display: flex;
+}
+header ul li a{
+	margin-left:20px; 
+	text-decoration: none;
+	font-size: 20px;
+	color: #111;
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

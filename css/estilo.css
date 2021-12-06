@@ -6,6 +6,11 @@
 	outline: none;
 }
 
+@font-face{
+	font-family: 'summer';
+	src:url('Road Summer.ttf');
+}
+
 header {
 	position: fixed;
 	left: 0;
@@ -15,6 +20,8 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 40px 100px;
+	transition: all .5s ease;
+	z-index: 1111;
 }
 
 header .titulo {
@@ -22,9 +29,10 @@ header .titulo {
 	font-size:1.5em;
 	color: #fff;
 	font-weight: 800;
+	font-family: 'summer', sans-serif;
 }
 header .titulo span {
-	color: #3ec97c;
+	color: #cadb2fe0;
 	font-weight: 700;
 }
 header ul {
@@ -36,6 +44,12 @@ header ul li a{
 	font-size: 20px;
 	color: #fff;
 	font-weight: 300;
+	transition: .5s;
+	font-family: sans-serif;
+	font-weight: 300;
+}
+header ul li a:hover {
+	color: #ff0157;
 }
 
 .banner {
@@ -51,7 +65,7 @@ header ul li a{
 	position: absolute;
 	left: 0;
 	top: 50%;
-	transform: translateY(-50%);
+	transform: translateY(-30%);
 	padding: 100px;
 	font-size: 40px;
 }
@@ -59,11 +73,13 @@ header ul li a{
 	font-size: 25px;
 	color: #cadb2fe0;
 	font-weight: 200;
+	font-family: 'ovelha',sans-serif;
 }
 .banner .conteudo h2 {
 	font-size: 2em;
 	color: #fff;
 	font-weight: 800;
+	line-height: 1.2em;
 }
 
 .banner .conteudo button {
@@ -82,6 +98,14 @@ header ul li a{
 	color: #fff;
 	font-weight: 700;
 }
+.stickey {
+	background-color:#0ab195f3; 
+	padding: 10px 100px;
+}
+.stickey .titulo, .stickey ul li a{
+	color: #111;
+}
+
 
 
 
